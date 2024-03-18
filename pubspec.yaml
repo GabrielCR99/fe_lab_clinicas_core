@@ -1,0 +1,22 @@
+name: lab_clinicas_core
+description: "A new Flutter package project."
+version: 0.0.1
+homepage: "https://www.example.com"
+publish_to: "none"
+
+environment:
+  sdk: ^3.3.1
+
+dependencies:
+  asyncstate: ^2.1.1-dev.1
+  dio: ^5.4.1
+  flutter:
+    sdk: flutter
+  flutter_getit: ^2.0.0
+  loading_animation_widget: ^1.2.1
+  shared_preferences: ^2.2.2
+  signals: ^4.5.1
+  top_snackbar_flutter: ^3.1.0
+
+dev_dependencies:
+  dart_code_metrics: ^5.7.6

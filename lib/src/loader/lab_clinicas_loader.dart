@@ -1,0 +1,18 @@
+import 'package:asyncstate/asyncstate.dart';
+import 'package:flutter/material.dart';
+import 'package:loading_animation_widget/loading_animation_widget.dart';
+
+final class LabClinicasLoader extends AsyncOverlay {
+  LabClinicasLoader({super.id = 0})
+      : super(
+          builder: (context, _) => Center(
+            child: SizedBox(
+              width: MediaQuery.sizeOf(context).width * 0.8,
+              child: LoadingAnimationWidget.inkDrop(
+                color: Colors.orange,
+                size: 50,
+              ),
+            ),
+          ),
+        );
+}
